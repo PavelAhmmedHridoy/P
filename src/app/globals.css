@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Global styles + smooth scroll */
+/* Smooth scroll globally */
+@import "bootstrap/dist/css/bootstrap.min.css";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #0a0e27, #1a1f3a, #0a0e27);
+  color: #fff;
+}
+
+/* Neon glow for active nav */
+.nav-active {
+  color: #00d4ff;
+  text-shadow: 0 0 5px #00d4ff, 0 0 10px #00d4ff, 0 0 20px #00d4ff;
+}
+@keyframes blurPulse {
+  0%, 100% { backdrop-filter: blur(10px); }
+  50% { backdrop-filter: blur(18px); }
+}
+
+.animate-blurPulse {
+  animation: blurPulse 4s ease-in-out infinite;
+}
+
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2.5s infinite ease-in-out;
+}
+@import "tailwindcss";
