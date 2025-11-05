@@ -4,7 +4,13 @@ import { Geist, Geist_Mono } from "next/font/google"
 import { SectionProvider } from "./context/SectionContext"
 import "./globals.css"
 
-
+// 🧠 add this block
+export const metadata: Metadata = {
+  title: "Your Website Name",
+  icons: {
+    icon: "/Logo.jpeg", // place your logo in /public/logo.png
+  },
+}
 
 export default function RootLayout({
   children,
