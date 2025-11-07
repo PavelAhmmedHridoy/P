@@ -45,7 +45,7 @@ export default function ConnectPage() {
     { title: "LinkedIn", description: "Professional network.", icon: <FaLinkedin />, link: "https://linkedin.com/in/pavel-ahmmed-hridoy-3396b9374" },
     { title: "Facebook", description: "Stay connected.", icon: <FaFacebook />, link: "https://facebook.com/pavel.ahmmed.hridoy" },
     { title: "Messenger", description: "Fast chat.", icon: <FaFacebookMessenger />, link: "https://m.me/pavel.ahmmed.hridoy" },
-    { title: "X (Twitter)", description: "Tech insights.", icon: <FaXTwitter />, link: "https://x.com/HridoyAhmm2731" },
+    { title: "X (Twitter)", description: "Tech insights.", icon: <FaXTwitter />, link: "https://x.com/Ahmm61311Pavel" },
   ];
 
   return (
