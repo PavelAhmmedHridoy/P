@@ -34,14 +34,14 @@ export default function ProjectListPage() {
         transition={{ duration: 0.6 }}
         className="w-full flex justify-center"
       >
-        <ProjectCard
+        {/*<ProjectCard
           title="Zorlyth"
           description="Next-gen social platform for chat, video, and community. Build communities, share content, and connect in real-time with friends and colleagues all in one place."
           logo="/zorlyth.jpg"
           showTime={false}       // No countdown, just active/inactive state
           upcoming={true}        // 🔒 Upcoming badge auto-disabled if publishDate passes
           visitLink="https://chatrio.example.com"
-        />
+        />*/}
       </motion.div>
     </section>
   );
